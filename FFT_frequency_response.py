@@ -17,9 +17,8 @@ For step inputs, more captures with shorter overall time, or even just taking a 
 If that method is used, it may be useful to truncate the displyed data from each capture
 """
 
-"""
-Create dummy scope data (for demo only)
-"""
+
+# Create dummy scope data (for demo only)
 def dummy_data():
     ns = 10000  # number of samples
     acquisition_bits = 12  # Scope vertical SNR in effective bits
@@ -85,7 +84,6 @@ ax3.axhline(y = -3.0, color='r', linestyle='dashed')  # add a -3dB reference lin
 ax3.legend(['Magnitude', '-3dB'])
 ax3.set_xlabel('Frequency (Hz)')
 ax3.set_ylabel('Magnitude (dB)')
-ax3.set_ylim([-60, 10])
 ax3.grid(which='both', axis='both')
 
 ax4.set_title('FFT Results: Frequency Response Phase')
