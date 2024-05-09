@@ -1,3 +1,5 @@
+# Tyler Richard - eedesignpro.com
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fft import rfft, rfftfreq
@@ -11,6 +13,8 @@ Any input signal can be used to excite the device-under-test (DUT), but it shoul
 The transfer function is calculated ratiometrically, so the exact stimulus is not critical
 
 A single time-domain capture is typically good for about 2 decades of calculated response with a step function input.
+For step inputs, more captures with shorter overall time, or even just taking a subset of a larger capture can give results with better SNR at higher frequencies
+If that method is used, it may be useful to truncate the displyed data from each capture
 """
 
 """
