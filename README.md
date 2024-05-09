@@ -1,3 +1,4 @@
 # LF_LNA_Tools
-Various python signal processing tools associated with low-noise measurements
-Tyler Richard - eedesignpro.com
+<p>Various python signal processing tools associated with low-noise measurements
+</p>
+<p>Tyler Richard - eedesignpro.com</p>
